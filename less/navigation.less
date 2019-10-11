@@ -1,1 +1,25 @@
-// Navigation code here
+.navheader {
+        background-color: @wild-sand;
+        .flexcenter();
+        flex-direction: column;
+        width: 100%;
+        padding-top: 2%;
+        .logo {
+            .flexcenter();
+        } // end logo
+        .navlinks {
+            .flexcenter();
+            nav {
+                margin: 2% 0;
+                display: flex;
+                justify-content: space-between;
+                width: 35%;
+                @media @phone {
+                    width: 70%;
+                }
+                a {
+                    .linkdecorator();
+                }
+            }//end nav
+        }//end navlinks      
+    }// end navheader   

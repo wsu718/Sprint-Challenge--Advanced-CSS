@@ -50,9 +50,9 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
@@ -121,6 +121,9 @@ _You will know everything is working properly when you see the styles enabled fo
 * [ ] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
+
+* [ ] Finish self-study questions above
+
 
 ## Stretch Problems
 

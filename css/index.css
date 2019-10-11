@@ -163,6 +163,20 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@keyframes boom {
+  0% {
+    transform: scale(0.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
 .navheader {
   background-color: #F6F6F6;
   display: flex;
@@ -207,6 +221,10 @@ footer {
 }
 .home .intro h2 {
   padding: 15px;
+  animation-name: boom;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
 }
 .home .intro p {
   padding: 0 15px;
